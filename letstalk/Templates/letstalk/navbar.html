@@ -1,38 +1,54 @@
+{% load static %}
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Web Page</title>
+    <title>Let's Talk</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    {% block styles %}
+    {% endblock styles %}
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to My Web Page</h1>
+    <header class="header-container">
+        <div class="header">
+            <!--logo-->
+            <div>
+                <a href="{% static 'home' %}" class="logo">
+                    <img src="{% static 'images/logo.png' %}" />
+                    <div>Let's Talk</div>
+                </a>
+                
+            </div>
+
+            <!--Logged In-->
+            {% if user.isauthenticated %}
+            <div>
+                <a>
+                    <img src="{% static 'user.image' %}">
+                </a>
+            </div>
+
+            <!--Not loggen In-->
+            {% else %}
+            <div>
+                <a href="{% static 'home' %}">
+                    <img src="{% static 'images/avatar.png' %}">
+                </a>
+            </div>
+            {% endif %}
+            
+        </div>
+
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <h2>About Us</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Service 1</li>
-                <li>Service 2</li>
-                <li>Service 3</li>
-            </ul>
-        </section>
+        {% block content %}
+        {% endblock content%}
     </main>
-    <footer>
-        <p>&copy; 2023 My Web Page</p>
+    <footer">
+        <p>coprights &copy; letstalk. </p>
     </footer>
+
 </body>
 </html>
