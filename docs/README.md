@@ -1,16 +1,28 @@
 # Welcome to Let's Talk Social Web App.(Your favourite)
+
 ![Letstalk Logo](/letstalk/assets/img.png)
-Let's Talk is a social platform where users come together to talk on different topic ideas based on their topic
-of interest at that moment.
-It features other great ideas where users can select from.
+
+Let's Talk is a social platform where users come together to talk on different topic ideas based on their topic of interest at that moment.
 
 ## About Let's Talk
 
+Let's talk was developed by the drive of orderliness where a topic idea has many sub topics so that users can specifically select and discuss  particular sub topic.
+
+production kicked in August 2023 by **Johnson Ugwuanyi**, a tech drived developer who is dedicated to solving problems in the tech industry with his acquired tech stack skills.
+
 ## Project Repository
+
+Visit our [GitHub Repository](https://github.com/JohnsonMasino/letstalk) to explore the code and contribute to our project.
 
 ## Introduction
 
+Let's Talk is a social platform where users can interect based on different topics of dicussion.
+
+
 ## Key Features
+
+- **Ideas**: Users can select a particular topic of discussion
+- **Topic Ideas**: Users can chose from variety of ideas in a particualr Idea
 
 ## Meet Our Team
 <img src="/letstalk/assets/nice.jfif" width="48%" height="auto" />
