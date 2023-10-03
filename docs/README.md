@@ -30,8 +30,6 @@ Visit our [GitHub Repository](https://github.com/JohnsonMasino/letstalk) to expl
 ## Meet Our Team
 <img src="/letstalk/assets/nice.jfif" width="48%" height="auto" />
 
-<img src="/letstalk/assets/guy.jfif" width="48%" height="auto" />
-
 ### Johnson Ugwuanyi
 Johnson, a Nigerian Fullstack developer, focused on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to back-end development for Vimojo.
 
