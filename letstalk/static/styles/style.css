@@ -4,8 +4,36 @@
 ------------------------*/
 .navbar-header {
     background-color: rgba(41, 47, 5, 0.765);
+    padding: 1.5rem;
+}
+.navbar-header > .navbar-header-div {
+    display: flex;
+    gap: 9.5rem;
 }
 .navbar-logo > img {
     height: 3.2rem;
     width: 3.2rem;
 }
+.navbar-logo > h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    color: antiquewhite;
+}
+.profile > a > img {
+    height: 3.2rem;
+    width: 3.2rem;
+}
+.profile,
+.navbar-logo {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.navbar-profile > a {
+    display: flex;
+    align-items: flex-end;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
