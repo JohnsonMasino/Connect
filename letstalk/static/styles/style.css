@@ -1,0 +1,11 @@
+
+/*-----------------------
+[[[  Header Section ]]]
+------------------------*/
+navbar-header {
+    background-color: rgba(41, 47, 5, 0.765);
+}
+.navbar-logo > img {
+    height: 3.2rem;
+    width: 3.2rem;
+}
