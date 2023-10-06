@@ -1,39 +1,80 @@
 
 /*-----------------------
-[[[  Header Section ]]]
+[[[  Navbar Section ]]]
 ------------------------*/
 .navbar-header {
     background-color: rgba(41, 47, 5, 0.765);
-    padding: 1.5rem;
+    padding: 1rem;
 }
 .navbar-header > .navbar-header-div {
     display: flex;
-    gap: 9.5rem;
+    gap: 11.5rem;
 }
 .navbar-logo > img {
     height: 3.2rem;
     width: 3.2rem;
+    display: flex;
+    align-items: center;
 }
 .navbar-logo > h1 {
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1rem;
     color: antiquewhite;
 }
-.profile > a > img {
-    height: 3.2rem;
-    width: 3.2rem;
+.navbar-profile > a {
+    font-size: 1rem;
+    font-weight: 100;
+    color: antiquewhite;
 }
-.profile,
+.profile span {
+    color: antiquewhite;
+    font-size: 1rem;
+}
+.profile img {
+    height: 3rem;
+    width: 3rem;
+}
+.navbar-profile,
 .navbar-logo {
     display: flex;
     gap: 2rem;
     align-items: center;
 }
-.navbar-profile > a {
-    display: flex;
-    align-items: flex-end;
+.navbar-profile {
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 100;
+}
+.navbar-search > label {
+    background-color: rgba(171, 183, 79, 0.861);
+    padding: 1.3rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 25px;
+}
+.navbar-search svg {
+    fill: rgb(232, 241, 187);
+    width: 2rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+}
+.navbar-search input {
+    font-size: 15px;
+    width: 25rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgba(41, 47, 5, 0.7);
 }
 
 
+/*-----------------------
+[[[  Header Section ]]]
+------------------------*/
+
+.header {
+    height: 10rem;
+}
+.body {
+    padding: 2px;
+}
