@@ -2,7 +2,7 @@
 /*-----------------------
 [[[  Header Section ]]]
 ------------------------*/
-navbar-header {
+.navbar-header {
     background-color: rgba(41, 47, 5, 0.765);
 }
 .navbar-logo > img {

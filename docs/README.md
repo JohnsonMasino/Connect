@@ -31,7 +31,7 @@ Visit our [GitHub Repository](https://github.com/JohnsonMasino/letstalk) to expl
 <img src="/letstalk/assets/nice.jfif" width="48%" height="auto" />
 
 ### Johnson Ugwuanyi
-Johnson, a Nigerian Fullstack developer, focused on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to back-end development for Vimojo.
+Johnson, a Nigerian Fullstack developer, focused on Python development. He's also enrolled in [ALX Africa](https://www.alxafrica.com/) and is dedicated to building and developing Let's Talk
 
 - **GitHub**: [JohnsonMasino](https://github.com/JohnsonMasino)
 - **LinkedIn**: [Johnson Ugwuanyi (Masino)](https://www.linkedin.com/in/masino100/)
