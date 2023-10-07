@@ -6,7 +6,7 @@
             <img src="{% static 'images/logo.png' %}" />
             <h1>Let's Talk</h1>
         </a>
-        <form class="" method="GET" action="{% url 'home' %}">
+        <form class="navbar-search" method="GET" action="{% url 'home' %}">
             <label>
                 <svg version="1.1" xmlns="" width="" height="" viewbox="" >
                     <title>Search</title>
@@ -16,21 +16,28 @@
             </label>
         </form>
 
-        <nav>
+        <nav class="navbar-profile">
             <!--Logged in-->
             {% if request.user.is_authenticated %}
-            <a href="{% url 'home' %}">
-                <img src="{% static 'user.image' %}" />
-                <h3>Masino</h3>
-            </a>
+            <div class="profile">
+                <a href="{% url 'home' %}">
+                    <div>
+                        <img src="{% static 'user.image' %}" />
+                    </div>
+                    <span>{{request.user.username}}</span>
+                </a>
+            </div>
+            <a href="{% url 'home' %}">Logout</a>
 
             <!--Not Logged In-->
             {% else %}
-            <a href="{% url 'home' %}">
-                <img src="{% static 'images/avatar.jfif' %}">
-                <h3>Login</h3>
-            </a>
-
+            <div class="profile">
+                <a href="{% url 'home' %}">
+                    <img src="{% static 'images/profile.jpg' %}">      
+                    <span>JohnsonMasino</span>>
+                </a>
+            </div>
+            <a href="{% url 'home' %}">Login</a>
             {% endif %}
         </nav>
 
