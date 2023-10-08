@@ -1,0 +1,25 @@
+{% extends 'letstalk/main.html' %}
+
+{% block content %}
+<main class="login-first">
+    <div class="login-second">
+        <div class="username-container">
+            <div class="username">
+                <label>Username</label>
+                <input class="" name="username" type="text" placeholder="E.g: JohnsonMasino">
+            </div>
+        </div>
+        <div class="password-container">
+            <div class="password">
+                <label>Password</label>
+                <input
+                class=""
+                name="password"
+                type="password"
+                placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;">
+            </div>
+        </div>
+        <button class="login-button" type="submit">Enter</button>
+    </div>
+</main>
+{% endblock content %}

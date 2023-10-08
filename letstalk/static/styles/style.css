@@ -1,6 +1,6 @@
 :root {
     --text-color-t1: rgb(220, 221, 201);
-    --header-color: rgba(18, 18, 2, 0.915);
+    --header-color: rgba(21, 21, 3, 0.878);
     --background-color: rgba(110, 107, 13, 0.837);
 }
 
@@ -83,6 +83,46 @@
     height: 5rem;
 }
 .body {
-    background-color: var(--mbackground-color);
+    background-color: var(--background-color);
+}
+
+/*-----------------------
+[[[  Login Section ]]]
+------------------------*/
+
+.login-first {
+    padding: 60px;
+    width: 40rem;
+    height: 5rem;
+    display: flex;
+    align-items: baseline;
+    border-radius: 5rem;
+    background-color: var(--header-color);
+}
+.login-second {
+    padding: 1rem;
+}
+.username,
+.password {
+    font-size: 15px;
+    width: 25rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--text-color-t1);
+}
+.username-container,
+.password-container {
+    padding: 2rem;
+    background-color: var(--background-color);
+}
+.password > label,
+.username > label {
+    background-color: var(--background-color);
+    padding: 5px 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 35px;
 }
 

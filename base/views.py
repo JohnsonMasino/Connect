@@ -4,3 +4,7 @@ from django.shortcuts import render
 def Home(request):
     context = {}
     return render(request, 'letstalk/main.html', context)
+
+def Login(request):
+    context = {}
+    return render(request, 'letstalk/login.html', context)
