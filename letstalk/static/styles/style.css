@@ -99,9 +99,9 @@
     background-color: var(--header-color);
 }
 .login-second {
-    padding: 1rem;
     background-color: var(--background-color);
     border-radius: 4rem 0rem 4rem 0rem;
+    padding: 1rem;
     width: 30rem;
 }
 .login-second h3 {
