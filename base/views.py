@@ -8,3 +8,6 @@ def Home(request):
 def Login(request):
     context = {}
     return render(request, 'letstalk/login.html', context)
+
+def Signup(request):
+    return render(request, 'letstalk/signup.html')
