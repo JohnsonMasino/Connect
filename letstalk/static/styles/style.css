@@ -1,3 +1,25 @@
+@media only screen and (min-width: 1200px) {
+    .body {
+      font-size: 62.5%;
+    }
+  }
+  
+@media only screen and (min-width: 2100px) {
+    .body {
+      font-size: 75%;
+    }
+  }
+
+@media screen and (max-width: 800px) {
+    .navbar-header > .navbar-header-div {
+      width: 5rem;
+    }
+  
+    .navbar-header > .navbar-header-div {
+      gap: 3rem;
+    }
+  }
+
 :root {
     --text-color-t1: rgb(220, 221, 201);
     --header-color: rgba(21, 21, 3, 0.878);
@@ -15,7 +37,10 @@
 }
 .navbar-header > .navbar-header-div {
     display: flex;
-    gap: 11.5rem;
+    gap: 15%;
+    width: auto;
+    margin: 0 auto;
+    overflow: hidden;
 }
 .navbar-logo > img {
     height: 3rem;
