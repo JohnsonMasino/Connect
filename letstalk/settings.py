@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'base.apps.BaseConfig',
+    # 'base.apps.BaseConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'letstalk',
+    'base',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,5 @@ AUTHENTICATION_BACKENDS = [
 LOGIN_URL = 'login'
 
 LOGIN_REDIRECT_URL = 'home'
+
+AUTH_USER_MODEL = 'base.User'
